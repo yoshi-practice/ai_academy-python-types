@@ -5,4 +5,4 @@ print("My name is " + name)
 age = 24
 # 以下は、データ型の異なる文字列型と数値型を連結してエラーになっているプログラムです。
 
-print("My name is " + name + "My age is " + age)  # この行はエラー
+print("My name is " + name + " My age is " + str(age))  # この行はエラー
